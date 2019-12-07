@@ -1,0 +1,66 @@
+body{
+    background-image: url("img/world-image.jpg");
+    background-size: cover;
+}
+
+img{
+    height: 35vh;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.player{
+    background: #d7d7d7;
+    height: 400px;
+    width: 300px;
+    flex-basis: (40% - 10px);
+    padding: 10px;
+    border-radius: 5px;
+    border: solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+header{
+    background: #eeb702;
+    color: black;
+    height: 60px;
+    text-align: center;
+}
+
+main{
+    height: 600px;
+}
+
+footer{
+    height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.btn{
+    background: orangered;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+#console{
+    background: black;
+    color: white;
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imgItem{
+    width: 30px;
+    height: auto;
+}
